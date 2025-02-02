@@ -1,4 +1,4 @@
-package br.com.uniquedata.sdk.helper.pojo;
+package br.com.uniquedata.sdk.helper.pojo.extract;
 
 public class ExtractMethod {
 	

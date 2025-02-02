@@ -13,8 +13,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import br.com.uniquedata.sdk.helper.annotation.AnnotationReflectionHelper;
-import br.com.uniquedata.sdk.helper.pojo.ExtractAnnotation;
-import br.com.uniquedata.sdk.helper.pojo.ExtractField;
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractAnnotation;
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractField;
 
 public class FieldReflectionHelper {
 

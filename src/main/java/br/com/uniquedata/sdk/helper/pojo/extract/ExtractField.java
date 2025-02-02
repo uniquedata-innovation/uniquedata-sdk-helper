@@ -1,4 +1,4 @@
-package br.com.uniquedata.sdk.helper.pojo;
+package br.com.uniquedata.sdk.helper.pojo.extract;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;

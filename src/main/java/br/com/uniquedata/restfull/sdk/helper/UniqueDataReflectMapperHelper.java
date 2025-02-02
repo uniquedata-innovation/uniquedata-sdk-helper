@@ -15,10 +15,10 @@ import java.util.concurrent.atomic.AtomicReference;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import br.com.uniquedata.sdk.helper.pojo.ExtractField;
-import br.com.uniquedata.sdk.helper.pojo.MapperExtractFields;
-import br.com.uniquedata.sdk.helper.pojo.ReflectMapperField;
-import br.com.uniquedata.sdk.helper.pojo.ReflectMapperFilter;
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractField;
+import br.com.uniquedata.sdk.helper.pojo.reflectmapper.MapperExtractFields;
+import br.com.uniquedata.sdk.helper.pojo.reflectmapper.ReflectMapperField;
+import br.com.uniquedata.sdk.helper.pojo.reflectmapper.ReflectMapperFilter;
 
 @Deprecated
 public class UniqueDataReflectMapperHelper {

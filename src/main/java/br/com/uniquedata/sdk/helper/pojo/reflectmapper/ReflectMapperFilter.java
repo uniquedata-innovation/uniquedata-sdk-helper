@@ -1,4 +1,4 @@
-package br.com.uniquedata.sdk.helper.pojo;
+package br.com.uniquedata.sdk.helper.pojo.reflectmapper;
 
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;

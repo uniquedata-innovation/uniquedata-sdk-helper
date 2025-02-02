@@ -1,6 +1,8 @@
-package br.com.uniquedata.sdk.helper.pojo;
+package br.com.uniquedata.sdk.helper.pojo.reflectmapper;
 
 import java.lang.annotation.Annotation;
+
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractField;
 
 public class MapperExtractField {
 	

@@ -20,9 +20,9 @@ import java.util.stream.Stream;
 
 import javax.management.RuntimeErrorException;
 
-import br.com.uniquedata.sdk.helper.pojo.ExtractAnnotation;
-import br.com.uniquedata.sdk.helper.pojo.ExtractField;
-import br.com.uniquedata.sdk.helper.pojo.ExtractMethod;
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractAnnotation;
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractField;
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractMethod;
 
 /**
  * The ObjectReflectionHelper helps to manipulate and inspect class settings 
