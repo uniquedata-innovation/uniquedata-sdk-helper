@@ -1,4 +1,4 @@
-package br.com.uniquedata.sdk.helper.pojo;
+package br.com.uniquedata.sdk.helper.pojo.others;
 
 public class UniqueDataParameterizedType {
 	

@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Optional;
 import java.util.stream.Stream;
 
-import br.com.uniquedata.sdk.helper.pojo.ExtractMethod;
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractMethod;
 
 public class MethodReflectionHelper {
 

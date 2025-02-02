@@ -1,4 +1,4 @@
-package br.com.uniquedata.sdk.helper.pojo;
+package br.com.uniquedata.sdk.helper.pojo.others;
 
 import java.lang.reflect.Type;
 import java.util.List;

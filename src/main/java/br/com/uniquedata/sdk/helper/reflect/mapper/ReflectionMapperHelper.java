@@ -17,10 +17,10 @@ import java.util.stream.Stream;
 
 import br.com.uniquedata.sdk.helper.field.FieldReflectionHelper;
 import br.com.uniquedata.sdk.helper.object.ObjectReflectionHelper;
-import br.com.uniquedata.sdk.helper.pojo.ExtractField;
-import br.com.uniquedata.sdk.helper.pojo.MapperExtractFields;
-import br.com.uniquedata.sdk.helper.pojo.ReflectMapperField;
-import br.com.uniquedata.sdk.helper.pojo.ReflectMapperFilter;
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractField;
+import br.com.uniquedata.sdk.helper.pojo.reflectmapper.MapperExtractFields;
+import br.com.uniquedata.sdk.helper.pojo.reflectmapper.ReflectMapperField;
+import br.com.uniquedata.sdk.helper.pojo.reflectmapper.ReflectMapperFilter;
 
 /**
  * A utility class that uses reflection to:

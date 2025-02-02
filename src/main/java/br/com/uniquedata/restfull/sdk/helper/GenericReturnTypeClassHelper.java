@@ -8,9 +8,9 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import br.com.uniquedata.sdk.helper.pojo.GenericReturnTypeClass;
-import br.com.uniquedata.sdk.helper.pojo.GenericReturnTypeClass.GenericReturnType;
-import br.com.uniquedata.sdk.helper.pojo.UniqueDataParameterizedType;
+import br.com.uniquedata.sdk.helper.pojo.others.GenericReturnTypeClass;
+import br.com.uniquedata.sdk.helper.pojo.others.UniqueDataParameterizedType;
+import br.com.uniquedata.sdk.helper.pojo.others.GenericReturnTypeClass.GenericReturnType;
 
 public class GenericReturnTypeClassHelper {
 	

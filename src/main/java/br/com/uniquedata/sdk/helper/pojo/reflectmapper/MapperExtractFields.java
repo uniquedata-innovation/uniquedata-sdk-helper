@@ -1,10 +1,12 @@
-package br.com.uniquedata.sdk.helper.pojo;
+package br.com.uniquedata.sdk.helper.pojo.reflectmapper;
 
 import java.lang.annotation.Annotation;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractField;
 
 public class MapperExtractFields extends ArrayList<MapperExtractField> {
 

@@ -9,8 +9,8 @@ import java.util.stream.Stream;
 
 import br.com.uniquedata.sdk.helper.method.MethodReflectionHelper;
 import br.com.uniquedata.sdk.helper.object.ObjectReflectionHelper;
-import br.com.uniquedata.sdk.helper.pojo.ExtractAnnotation;
-import br.com.uniquedata.sdk.helper.pojo.ExtractMethod;
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractAnnotation;
+import br.com.uniquedata.sdk.helper.pojo.extract.ExtractMethod;
 
 public class AnnotationReflectionHelper {
 	
