@@ -20,8 +20,17 @@ public class MapperExtractFields extends ArrayList<MapperExtractField> {
 		return super.add(new MapperExtractField(field, annotation));
 	}
 	
-	public List<MapperExtractField> get(final Class<? extends Annotation> annotation) {
+	public List<MapperExtractField> getMany(final Class<? extends Annotation> annotation) {
 		return parse(annotation).collect(Collectors.toList());	
+	}
+	
+	public MapperExtractField getUniqueResult(final Class<? extends Annotation> annotation) {
+		final List<MapperExtractField> fields = getMany(annotation);
+		
+		if(fields != null && !fields.isEmpty() && fields.size() > 1)
+			throw new RuntimeException("No unique result! please take getMany!");
+		
+		return fields != null && !fields.isEmpty() ? parse(annotation).findAny().orElse(null) : null;	
 	}
 	
 	private Stream<MapperExtractField> parse(final Class<? extends Annotation> annotation) {
