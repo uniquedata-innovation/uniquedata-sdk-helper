@@ -2,10 +2,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.uniquedata.sdk.helper</groupId>
   <artifactId>uniquedata-sdk-helper</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   
   <name>UniqueData SDK Helper</name>
-  <description>Biblioteca de dependências para UniqueData SDK</description>
+  <description>Helper Libraries for UniqueData SDK</description>
   <url>https://github.com/uniquedata-innovation/uniquedata-sdk-helper</url>
   
   <licenses>
@@ -83,6 +83,37 @@
              	<waitUntil>published</waitUntil>
 			</configuration>
 		</plugin>
+	    <plugin>
+	      <groupId>org.apache.maven.plugins</groupId>
+	      <artifactId>maven-javadoc-plugin</artifactId>
+	      <version>3.5.0</version>
+	      <configuration>
+		    <failOnError>false</failOnError>
+		  </configuration>
+	      <executions>
+	        <execution>
+	          <id>attach-javadocs</id>
+	          <phase>verify</phase>
+	          <goals>
+	            <goal>jar</goal>
+	          </goals>
+	        </execution>
+	      </executions>
+    	</plugin>
+    	 <plugin>
+	      <groupId>org.apache.maven.plugins</groupId>
+	      <artifactId>maven-source-plugin</artifactId>
+	      <version>3.2.1</version>
+	      <executions>
+	        <execution>
+	          <id>attach-sources</id>
+	          <phase>verify</phase>
+	          <goals>
+	            <goal>jar-no-fork</goal>
+	          </goals>
+	        </execution>
+	      </executions>
+	    </plugin>
 	    <plugin>
 	      <groupId>org.apache.maven.plugins</groupId>
 	      <artifactId>maven-gpg-plugin</artifactId>

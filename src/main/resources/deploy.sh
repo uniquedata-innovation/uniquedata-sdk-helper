@@ -1,22 +1,12 @@
 #!/bin/bash
 
+cd /Users/jadersonberti/workspace/uniquedata-sdk-helper;
+
 echo "maven clean install deploy uniquedata-sdk-helper starting ...";
 
 mvn clean
 
 mvn install
-
-echo "===================================================================================="
-echo "===================================================================================="
-echo ""
-echo "maven deploy for github uniquedata-sdk-helper starting ...";
-echo ""
-echo "===================================================================================="
-echo "===================================================================================="
-
-sleep 1;
-
-mvn deploy -Pgithub-sdk-helper-profile
 
 echo "===================================================================================="
 echo "===================================================================================="
@@ -28,7 +18,7 @@ echo "==========================================================================
 
 sleep 1;
 
-mvn deploy 
+mvn deploy -U
 
 echo "Finish success deploy!";
 
